@@ -1,0 +1,13 @@
+services:
+  time-test:
+    build:
+      context: ..
+      dockerfile: test/Dockerfile
+    stdin_open: true
+    tty: true
+    networks:
+      - time-network
+
+networks:
+  time-network:
+    external: true

@@ -1,0 +1,14 @@
+
+services:
+  time-server:
+    build:
+      context: ..
+      dockerfile: time_docker/Dockerfile
+    ports:
+      - "8080:8080"
+    networks:
+      - time-network
+
+networks:
+  time-network:
+    external: true
