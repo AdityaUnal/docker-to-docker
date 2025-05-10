@@ -6,7 +6,7 @@ container.</br>
 
 ## Getting Started
 - Make sure that you have [docker]([url](https://docs.docker.com/desktop/)) installed.
-- After installing docker clone this directory using
-'''
+- After installing docker follow these steps : 
+'''bash
   git clone https://github.com/AdityaUnal/docker-to-docker.git
 '''
