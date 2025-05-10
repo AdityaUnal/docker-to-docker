@@ -38,3 +38,10 @@ docker exec -it $(sudo docker ps -aq --filter ancestor=test-time-server) /bin/ba
 5 directories, 10 files
 
 ```
+## Technologies Used
+- Docker
+- Python
+- Sanic
+## Working
+![Pasted image](https://github.com/user-attachments/assets/9a986fe0-fc30-47cc-8771-a1ebb18736d6)
+
