@@ -16,4 +16,25 @@ docker compose -f time_docker/compose.yaml -f test/compose.yaml up -d
 - Now you can access the entrypoint script using :
 ```shell
 docker exec -it $(sudo docker ps -aq --filter ancestor=test-time-server) /bin/bash
-``` 
+```
+## Project Structure
+```
+.
+└── time
+    ├── know_time.py
+    ├── __pycache__
+    │   └── know_time.cpython-311.pyc
+    ├── test
+    │   ├── compose.yaml
+    │   ├── Dockerfile
+    │   ├── entrypoint.py
+    │   └── requirements.txt
+    └── time_docker
+        ├── compose.yaml
+        ├── Dockerfile
+        ├── requirements.txt
+        └── time_server.py
+
+5 directories, 10 files
+
+```
